@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 回测数据与日志（本地大文件不入库）
+*.log
+*.csv
+data/
+output/
+backtest_results/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 策略运行时产物
+*.strategy
+*.wbp
